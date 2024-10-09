@@ -27,6 +27,7 @@ public class UsuariosController : ControllerBase
     }
 
 
+
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers(); // This line adds the required services for controllers

@@ -8,5 +8,24 @@ namespace AUTOMAPPPER.Properties
         
             CreateMap<Usuario, UsuarioDto>().ForMember(dest => dest.NombreCompleto, opt => opt.MapFrom(src => src.Nombre));
         }
+
+
+       
     }
+
+
+    public class PerfilMapeo2 : Profile
+    {
+        public PerfilMapeo2()
+        {
+
+            CreateMap<Product, ProductDto>();
+        }
+
+
+
+    }
+
+
+
 }
